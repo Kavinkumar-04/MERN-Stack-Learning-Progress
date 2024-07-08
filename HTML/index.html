@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updated Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+    width: 30%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid green;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: yellowgreen;
+}
+tr:nth-child(even) {
+    background-color: rgb(234, 231, 231);
+}
+#new{
+    background-color: white;
+}
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Table information</caption>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Gokul</td>
+            <td rowspan="2">20</td>
+            <td rowspan="2">India</td>
+        </tr>
+        <tr>
+            <td>Santhosh</td>
+        </tr>
+        <tr>
+            <td>Jeeva</td>
+            <td>25</td>
+            <td>Africa</td>
+        </tr>
+        <tr>
+            <td colspan="2">Pranish</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Kavin</td>
+            <td>21</td>
+            <td>Germany</td>
+        </tr>
+
+        <tfoot id="new">
+            <td>Result</td>
+            <td>summarization</td>
+            <td>end</td>
+        </tfoot>
+    </tbody>
+    </table>
+    
+</body>
+</html>
